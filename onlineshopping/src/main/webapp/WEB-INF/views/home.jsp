@@ -9,7 +9,7 @@
 	
 	
 	
-		<!-- Slider -->
+		<!-- Catalogue Slider2 -->
 		<div class="swiper-container col-md-12">
         <div class="swiper-wrapper">
 
