@@ -21,6 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @PropertySource("classpath:connection.properties")
 public class HibernateConfig {
 	
+	
 	@Value("${jdbc.url}")
 	private String DATABASE_URL;
 	@Value("${jdbc.driver}")

@@ -10,6 +10,7 @@
 
 	<!-- Version information will be stored here -->
 	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<javaee.version>7.0</javaee.version>
 		<spring.version>4.3.6.RELEASE</spring.version>
 		<spring.security.version>4.2.2.RELEASE</spring.security.version>
@@ -17,7 +18,6 @@
 	</properties>
 
 	<dependencies> 
-	
 	
 		<!-- Link backend project -->
 		<dependency>
@@ -94,6 +94,7 @@
 			<artifactId>spring-security-taglibs</artifactId>
 			<version>${spring.security.version}</version>
 		</dependency>
+	    
 	    
 	    
 	</dependencies>

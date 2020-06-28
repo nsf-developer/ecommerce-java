@@ -58,13 +58,12 @@
 
 <body>
 
-
 	<div class="wrapper">
 
-		<!-- Navigation -->
+		<!-- Navigation bar -->
 		<%@include file="./shared/navbar.jsp"%>
 
-		<!-- Page Content -->
+		<!-- Page Content   -->
 
 		<div class="content">
 
@@ -108,7 +107,7 @@
 		</div>
 
 
-		<!-- Footer comes here -->
+		<!-- Footer comes here  -->
 		<%@include file="./shared/footer.jsp"%>
 
 		<!-- jQuery -->
@@ -132,8 +131,9 @@
 		<script src="${js}/myapp.js"></script>
 
 
-
+		<%-- <script src="${js}/catelogSlider.js"></script> --%>
 		<script src="${js}/swiper.min.js"></script>
+		
 
 		<!-- Initialize Swiper -->
 		<script>

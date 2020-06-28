@@ -241,32 +241,6 @@ input:checked + .slider:before {
 
 
 
-/* Slider */
-
-.card{
-    position: relative;
-    background: #fff;
-    width: 414px;
-    height: 384px;
-    margin: 0 auto;
-}
-
-.card img{
-    width: 414px;
-    height: 384px;
-}
-
-
-.swiper-slide{
-    width: 414px;
-   	margin-top: 20px;
-   	margin-bottom: 40px;
-    
-}
-
-
-
-
 
 
 

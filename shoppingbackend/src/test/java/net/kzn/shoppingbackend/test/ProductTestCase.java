@@ -65,7 +65,7 @@ public class ProductTestCase {
 	@Test
 	public void testListActiveProducts() {
 		assertEquals("Something went wrong while fetching the list of products!",
-				5,productDAO.listActiveProducts().size());				
+				7,productDAO.listActiveProducts().size());				
 	} 
 	
 	

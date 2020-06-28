@@ -3,81 +3,23 @@
 
 <!-- DataTable Bootstrap Script -->
 <script src="${js}/productsController.js"></script>
-<div  ng-app="ShoppingApp" ng-controller="ProductController as pCtrl" >
+<div ng-app="ShoppingApp" ng-controller="ProductController as pCtrl">
 
 	<div class="row" ng-init="pCtrl.fetchProducts()">
-	
-	
-	
-		<!-- Catalogue Slider2 -->
-		<div class="swiper-container col-md-12">
-        <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_01.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_02.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_03.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_04.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_05.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_06.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_07.jpg"/>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="card">
-                    <img src="${images}/2020002_Page_08.jpg"/>
-                </div>
-            </div>
-
-            
-
-        </div>
-    </div>
-	
-	
-	
 	
 
-		<%-- <div class="col-md-3">
+
+<div class="container">
+
+		<div class="col-md-3">
 			<%@include file="./shared/sidebar.jsp"%>
-		</div> --%>
+		</div>
 
-		<div class="container">
-		<div class="col-md-12" >
+		
+			<div class="col-md-9">
 
-			<%-- <div class="row carousel-holder">
+				<div class="row carousel-holder">
 
 				<div class="col-md-12">
 					<div id="carousel-example-generic" class="carousel slide"
@@ -118,70 +60,195 @@
 					</div>
 				</div>
 
-			</div> --%>
+			</div>
+	</div>
+</div>
 
-				<div class="row">
-                	<div class="col-xs-12">
-                		<h3>Our Most Viewed Products</h3>
-                		<hr/>
-                	</div>
-                </div>
 
-                <div class="row is-table-row">
-                	
-                    <div class="col-sm-4" ng-repeat="product in pCtrl.mvProducts">                    	
-                        <div class="thumbnail">
-                            <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="landingImg">
-                            <h5>{{product.name}}</h5>
-                            <hr/>
-                            <div class="caption">
-                                <h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
-                                <p>{{product.description}}</p>
-                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary pull-right">View</a>
-                            </div>
-                        </div>
-                        
-                    </div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4>Checkout more products!</h4>
-                        <hr/>
-                        <a class="btn btn-primary" href="${contextRoot}/show/all/products">More Products</a>
-                    </div>
 
-                </div>
+		<!-- Catalogue Slider -->
+		<div class="swiper-container col-md-12">
+			<div class="swiper-wrapper" >
+
+			
+			
+				<!-- <div class="swiper-slide box" >
+					
+						<div class="card" >
+							<div id="catalogueImg"></div>
+						</div>
+					
+				</div> -->
+			
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_01.jpg" alt=""/>
+					</div>
+				</div>
+		
+			
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_02.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_03.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_04.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_05.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_06.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_07.jpg" />
+					</div>
+				</div>
+
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_08.jpg" />
+					</div>
+				</div>
 				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_09.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_10.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_11.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_12.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_13.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_14.jpg" />
+					</div>
+				</div>
+				
+				<div class="swiper-slide">
+					<div class="card">
+						<img src="${images}/2020002_Page_15.jpg" />
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+
+		<div class="container">
+
 				<div class="row">
-                	<div class="col-xs-12">
-                		<h3>Our Most Purchased Products</h3>
-                		<hr/>
-                	</div>
-                </div>
-               <div class="row is-table-row">
-                	
-                    <div class="col-sm-4" ng-repeat="product in pCtrl.mpProducts">                    	
-                        <div class="thumbnail">
-                            <img ng-src="${images}/{{product.code}}.jpg" alt="{{product.name}}" class="landingImg">
-                            <h5>{{product.name}}</h5>
-                            <hr/>
-                            <div class="caption">
-                                <h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
-                                <p>{{product.description}}</p>
-                                <a ng-href="${contextRoot}/show/{{product.id}}/product" class="btn btn-primary pull-right">View</a>
-                            </div>
-                        </div>
-                    </div>
+					<div class="col-xs-12">
+						<h3>Our Most Viewed Products</h3>
+						<hr />
+					</div>
+				</div>
 
-                    <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4>Checkout more products!</h4>
-                        <hr/>
-                        <a class="btn btn-primary" href="${contextRoot}/show/all/products">More Products</a>
-                    </div>
+				<div class="row is-table-row">
 
-                </div>
+					<div class="col-sm-3" ng-repeat="product in pCtrl.mvProducts">
+						<div class="thumbnail">
+							<img ng-src="${images}/{{product.code}}.jpg"
+								alt="{{product.name}}" class="landingImg">
+							<h5>{{product.name}}</h5>
+							<hr />
+							<div class="caption">
+								<h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
+								<p>{{product.description}}</p>
+								<a ng-href="${contextRoot}/show/{{product.id}}/product"
+									class="btn btn-primary pull-right">View</a>
+							</div>
+						</div>
 
-		</div>
-		</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<h4>Checkout more products!</h4>
+						<hr />
+						<a class="btn btn-primary" href="${contextRoot}/show/all/products">More
+							Products</a>
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>Our Most Purchased Products</h3>
+						<hr />
+					</div>
+				</div>
+				<div class="row is-table-row">
+
+					<div class="col-sm-3" ng-repeat="product in pCtrl.mpProducts">
+						<div class="thumbnail">
+							<img ng-src="${images}/{{product.code}}.jpg"
+								alt="{{product.name}}" class="landingImg">
+							<h5>{{product.name}}</h5>
+							<hr />
+							<div class="caption">
+								<h4 class="pull-right">&#8377; {{product.unitPrice}}</h4>
+								<p>{{product.description}}</p>
+								<a ng-href="${contextRoot}/show/{{product.id}}/product"
+									class="btn btn-primary pull-right">View</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-4 col-lg-4 col-md-4">
+						<h4>Checkout more products!</h4>
+						<hr />
+						<a class="btn btn-primary" href="${contextRoot}/show/all/products">More
+							Products</a>
+					</div>
+
+				</div>
+
+			</div>
+		
 
 	</div>
 
