@@ -17,9 +17,12 @@
 						class="break background-primary break-big break-center margin-bottom-20r">
 				</div>
 
-				<h3 class="text-size-30 margin-bottom-40 text-center">
-					<b>Sign Up - Personal</b>
+				<h3 class="text-size-30 text-center margin-bottom-0">
+					<b>SIGN UP</b>
 				</h3>
+				<h4 class="text-size-12 margin-bottom-20 text-center" style="color:#dd442c;">
+					<b>Personal</b>
+				</h4>
 
 				<sf:form method="POST" modelAttribute="user"
 					class="customform text-white" id="registerForm"
@@ -27,16 +30,16 @@
 
 					<div class="line">
 						<div class="margin">
-							<div class="s-12 m-12 l-6">
+							<div class="s-12 m-12 l-6 margin-top-20">
 								<sf:input type="text" path="firstName"
-									class="required email margin-bottom-20"
+									class="required email margin-bottom-0"
 									placeholder="First Name" title="Your First Name" />
 								<sf:errors path="firstName" cssClass="help-block" element="em" />
 							</div>
 
-							<div class="s-12 m-12 l-6">
+							<div class="s-12 m-12 l-6 margin-top-20">
 								<sf:input type="text" path="lastName"
-									class="email margin-bottom-20" placeholder="Last Name"
+									class="email margin-bottom-0" placeholder="Last Name"
 									title="Your Last Name" />
 								<sf:errors path="lastName" cssClass="help-block" element="em" />
 							</div>
@@ -44,37 +47,37 @@
 					</div>
 
 					<div class="line">
-						<div class="s-12 m-12 l-12">
+						<div class="s-12 m-12 l-12 margin-top-20">
 							<sf:input type="text" path="email"
-								class="required margin-bottom-20" placeholder="Email"
+								class="required margin-bottom-0" placeholder="Email"
 								title="Your Email" />
 							<sf:errors path="email" cssClass="help-block" element="em" />
 						</div>
 
-						<div class="s-12 m-12 l-12">
+						<div class="s-12 m-12 l-12 margin-top-20">
 							<sf:input type="text" path="contactNumber" maxlength="10"
-								class="required margin-bottom-20" placeholder="Contact Number"
+								class="required margin-bottom-0" placeholder="Contact Number"
 								title="Your Contact Number" />
 							<sf:errors path="contactNumber" cssClass="help-block"
 								element="em" />
 						</div>
 
-						<div class="s-12 m-12 l-12">
+						<div class="s-12 m-12 l-12 margin-top-20">
 							<sf:input type="password" path="password"
-								class="required margin-bottom-20" placeholder="Password"
+								class="required margin-bottom-0" placeholder="Password"
 								title="Your Password" />
 							<sf:errors path="password" cssClass="help-block" element="em" />
 						</div>
 
-						<div class="s-12 m-12 l-12">
+						<div class="s-12 m-12 l-12 margin-top-20">
 							<sf:input type="password" path="confirmPassword"
-								class="required margin-bottom-20" placeholder="Confirm Password"
-								title="Your Last Name" />
+								class="required margin-bottom-0" placeholder="Confirm Password"
+								title="Re-type Password" />
 							<sf:errors path="confirmPassword" cssClass="help-block"
 								element="em" />
 						</div>
 
-						<div class="s-12 m-12 l-12">
+						<div class="s-12 m-12 l-12 margin-top-20">
 							<label class="radio-inline margin-right-20"><sf:radiobutton
 									path="role" value="USER" checked="checked" />USER</label> <label
 								class="radio-inline"><sf:radiobutton path="role"
@@ -83,24 +86,28 @@
 
 						<div class="s-12">
 							<button type="submit" name="_eventId_billing"
-								class="button border-radius text-white background-primary margin-top-20"
+								class="button border-radius text-white background-primary "
 								>Next - Billing</button>
 						</div>
+					</div>
+					
+					</sf:form>	
+
+					<div class="line">
 
 						<div class="s-12">
-							<p class="text-center margin-bottom-10">Your personal informations</p>
+							<p class="text-center margin-top-20">Already have an account? <a href="${contextRoot}/login" style="color:#dd442c;">Login</a></p>
 						</div>
 
 						
 					</div>
 
-					<div class="line">
-						<hr
-							class="break background-primary break-big break-center margin-bottom-20r">
+					<div class="s-12">
+						<hr>
 					</div>
 
-				</sf:form>
-			</div>
+					</div>
+			
 		</section>
 	</article>
 </main>
