@@ -1,14 +1,99 @@
-    <div class="container footer">
+<!-- Footer -->
+	<section class="section-small-padding background-dark text-center">
+		<div class="line">
+			<h2 class="text-white text-size-50 text-m-size-40 margin-bottom-20">
+				Get <b>Free Version</b>
+			</h2>
+			<div class="m-10 l-6 xl-4 center">
+				<div class="margin">
+					<a class="s-12 m-6 margin-s-bottom" href="/"> <img
+						class="full-img right" src="img/google-play.svg" alt="">
+					</a> <a class="s-12 m-6" href="/"> <img class="full-img"
+						src="img/app-store.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 
-        <hr>
+	</main>
 
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Online Shopping 2020 - Designed and Developed By Mhd NAseef</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
+	<!-- FOOTER -->
+	<footer>
+		<!-- Social -->
+		<div class="background-primary padding text-center">
+			<a href="/"><i
+				class="icon-facebook_circle text-size-25 text-dark"></i></a> <a href="/"><i
+				class="icon-twitter_circle text-size-25 text-dark"></i></a> <a href="/"><i
+				class="icon-google_plus_circle text-size-25 text-dark"></i></a> <a
+				href="/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+			<a href="/"><i
+				class="icon-linked_in_circle text-size-25 text-dark"></i></a>
+		</div>
+		<!-- Main Footer -->
+		<section class="section background-dark">
+			<div class="line">
+				<div class="margin2x">
+					<div class="s-12 m-6 l-3 xl-5">
+						<h4 class="text-white text-strong">Our Mission</h4>
+						<p>
+							<b class="text-size-20">Veri fastidii consectetuer</b> ius in,
+							eum alii dicunt omnium eu. Wisi nostrud equidem ut usu. <b
+								class="text-size-20">Deleniti pertinacia eu est</b>, te his
+							soluta quaestio pericula.
+						</p>
+					</div>
+					<div class="s-12 m-6 l-3 xl-2">
+						<h4 class="text-white text-strong margin-m-top-30">Useful
+							Links</h4>
+						<a class="text-primary-hover" href="page.html">FAQ</a><br> <a
+							class="text-primary-hover" href="contact.html">Contact Us</a><br>
+						<a class="text-primary-hover" href="blog.html">Blog</a>
+					</div>
+					<div class="s-12 m-6 l-3 xl-2">
+						<h4 class="text-white text-strong margin-m-top-30">Term of
+							Use</h4>
+						<a class="text-primary-hover" href="page.html">Terms and
+							Conditions</a><br> <a class="text-primary-hover"
+							href="page.html">Refund Policy</a><br> <a
+							class="text-primary-hover" href="page.html">Disclaimer</a>
+					</div>
+					<div class="s-12 m-6 l-3 xl-3">
+						<h4 class="text-white text-strong margin-m-top-30">Contact Us</h4>
+						<p>
+							<i class="icon-sli-screen-smartphone text-primary"></i> 0800 4521
+							800 50
+						</p>
+						<a class="text-primary-hover"
+							href="mailto:contact@sampledomain.com"><i
+							class="icon-sli-mouse text-primary"></i> contact@sampledomain.com</a><br>
+						<a class="text-primary-hover"
+							href="mailto:office@sampledomain.com"><i
+							class="icon-sli-mouse text-primary"></i> office@sampledomain.com</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="background-dark">
+			<div class="line">
+				<hr class="break margin-top-bottom-0" style="border-color: #777;">
+			</div>
+		</div>
+		<!-- Bottom Footer -->
+		<section class="padding-2x background-dark full-width">
+			<div class="line">
+				<div class="s-12 l-6">
+					<p class="text-size-12">Copyright 2019, Vision Design - graphic
+						zoo</p>
+					<p class="text-size-12">All images have been purchased from
+						Bigstock. Do not use the images in your website.</p>
+				</div>
+				<div class="s-12 l-6">
+					<a class="right text-size-12 text-primary-hover"
+						href="http://www.myresponsee.com"
+						title="Responsee - lightweight responsive framework">Design
+						and coding<br> by Responsee Team
+					</a>
+				</div>
+			</div>
+		</section>
