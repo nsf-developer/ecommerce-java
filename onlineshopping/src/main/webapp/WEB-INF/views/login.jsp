@@ -196,7 +196,7 @@
 							<div class="s-12">
 							<a href="http://localhost:8080/onlineshopping/membership"
 								class="border-radius text-white margin-top-0 text-center" style="background-color: #dd442c; padding: 12px;">
-								Sign Up</a>
+								Create Account</a>
 							
 								<!-- <button class="button border-radius text-white"
 									style="background-color: #dd442c;" onclick="location.href = 'http://localhost:8080/onlineshopping/membership';">Sign Up</button> -->

@@ -13,14 +13,14 @@
 		<section class="section background-dark">
 			<div class="s-12 m-12 l-4 center ">
 				<div class="line">
-					<hr
-						class="break background-primary break-big break-center margin-bottom-20r">
+					<hr class="break background-primary break-big break-center">
 				</div>
 
 				<h3 class="text-size-30 text-center margin-bottom-0">
 					<b>SIGN UP</b>
 				</h3>
-				<h4 class="text-size-12 margin-bottom-20 text-center" style="color:#dd442c;">
+				<h4 class="text-size-12 margin-bottom-20 text-center"
+					style="color: #dd442c;">
 					<b>Personal</b>
 				</h4>
 
@@ -32,8 +32,8 @@
 						<div class="margin">
 							<div class="s-12 m-12 l-6 margin-top-20">
 								<sf:input type="text" path="firstName"
-									class="required email margin-bottom-0"
-									placeholder="First Name" title="Your First Name" />
+									class="required email margin-bottom-0" placeholder="First Name"
+									title="Your First Name" />
 								<sf:errors path="firstName" cssClass="help-block" element="em" />
 							</div>
 
@@ -86,28 +86,32 @@
 
 						<div class="s-12">
 							<button type="submit" name="_eventId_billing"
-								class="button border-radius text-white background-primary "
-								>Next - Billing</button>
+								class="button border-radius text-white background-primary ">Next
+								- Billing</button>
 						</div>
 					</div>
-					
-					</sf:form>	
 
-					<div class="line">
+				</sf:form>
 
-						<div class="s-12">
-							<p class="text-center margin-top-20">Already have an account? <a href="${contextRoot}/login" style="color:#dd442c;">Login</a></p>
-						</div>
+				<div class="line">
 
-						
+					<div class="s-12">
+						<p class="text-center margin-top-20">
+							Already have an account? <a href="${contextRoot}/login"
+								style="color: #dd442c;">Login</a>
+						</p>
 					</div>
 
 					<div class="s-12">
 						<hr>
 					</div>
 
-					</div>
-			
+				</div>
+
+
+
+			</div>
+
 		</section>
 	</article>
 </main>
