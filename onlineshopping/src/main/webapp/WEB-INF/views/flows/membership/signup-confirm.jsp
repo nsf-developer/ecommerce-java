@@ -52,7 +52,7 @@
 					<div  style="height:250px;">
 						<p>${registerModel.billing.addressLineOne},</p>
 						<p>${registerModel.billing.addressLineTwo},</p>
-						<p>${registerModel.billing.city}-
+						<p>${registerModel.billing.city} -
 							${registerModel.billing.postalCode},</p>
 						<p>${registerModel.billing.state}</p>
 						<p>${registerModel.billing.country}</p>

@@ -48,22 +48,22 @@
 
 					<div class="line">
 						<div class="s-12 m-12 l-12 margin-top-20">
-							<sf:input type="text" path="email"
+							<sf:input type="email" path="email"
 								class="required margin-bottom-0" placeholder="Email"
 								title="Your Email" />
 							<sf:errors path="email" cssClass="help-block" element="em" />
 						</div>
 
 						<div class="s-12 m-12 l-12 margin-top-20">
-							<sf:input type="text" path="contactNumber" maxlength="10"
-								class="required margin-bottom-0" placeholder="Contact Number"
-								title="Your Contact Number" />
+							<sf:input type="tel" path="contactNumber" maxlength="10" pattern="[0-9]{10}"
+								class="required margin-bottom-0" placeholder="Contact Number ( ten-digit )"
+								title="Your Contact Number (ten-digit)" />
 							<sf:errors path="contactNumber" cssClass="help-block"
 								element="em" />
 						</div>
 
 						<div class="s-12 m-12 l-12 margin-top-20">
-							<sf:input type="password" path="password"
+							<sf:input type="password" path="password" minlength="5"
 								class="required margin-bottom-0" placeholder="Password"
 								title="Your Password" />
 							<sf:errors path="password" cssClass="help-block" element="em" />

@@ -159,7 +159,7 @@
 
 				<!-- mobile version logo -->
 				<div class="logo hide-l hide-xl hide-xxl">
-					<a href="index.html" class="logo"> <!-- Logo White Version -->
+					<a href="${contextRoot}/home" class="logo"> <!-- Logo White Version -->
 						<img class="logo-white" src="${images}/logo.svg" alt=""> <!-- Logo Dark Version -->
 						<img class="logo-dark" src="${images}/logo-dark.svg" alt="">
 					</a>
@@ -171,7 +171,7 @@
 
 				<!-- logo -->
 				<ul class="logo-menu">
-					<a href="index.html" class="logo"> <!-- Logo White Version -->
+					<a href="${contextRoot}/home" class="logo"> <!-- Logo White Version -->
 						<img class="logo-white" src="${images}/logo.svg" alt=""> <!-- Logo Dark Version -->
 						<img class="logo-dark" src="${images}/logo-dark.svg" alt="">
 					</a>

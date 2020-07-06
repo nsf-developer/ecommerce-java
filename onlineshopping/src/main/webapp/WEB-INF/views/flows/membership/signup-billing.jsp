@@ -57,7 +57,7 @@
 							</div>
 	
 							<div class="s-12 m-12 l-6">
-								<sf:input type="text" path="postalCode"
+								<sf:input type="number" path="postalCode"
 									class="margin-bottom-20" placeholder="Postal Code"
 									title="Your Postal Code" />
 								<sf:errors path="postalCode" cssClass="help-block" element="em" />

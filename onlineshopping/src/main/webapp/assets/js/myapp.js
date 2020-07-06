@@ -199,7 +199,7 @@ $(function() {
 								{
 									data : 'unitPrice',
 									mRender : function(data, type, row) {
-										return '&#8377; ' + data
+										return 'LKR ' + data
 									}
 								},
 								{
@@ -336,7 +336,7 @@ $(function() {
 	
 	// validating the product form element	
 	// fetch the form element
-	$loginForm = $('#loginForm');
+	/*$loginForm = $('#loginForm');
 	
 	if($loginForm.length) {
 		
@@ -372,7 +372,7 @@ $(function() {
 		
 		);
 		
-	}
+	}*/
 		
 	
 	
