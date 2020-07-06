@@ -21,9 +21,9 @@
 
 						<div class="text-center">
 							<h1>Welcome!</h1>
-							<h3>onlineshopping.com</h3>
-							<h6>You can use your email address as username to login!</h6>
-							<div class="s-3 center">
+							<h3>OriflameOnline.com</h3>
+							<h6>You can use your Email Address as Username to login!</h6>
+							<div class="s-4 center">
 								<a href="${contextRoot}/login" style="width: 100%; background-color: #dd442c;" class="button border-radius text-white margin-top-20">Login
 									Here</a>
 							</div>

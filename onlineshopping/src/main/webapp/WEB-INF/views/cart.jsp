@@ -1,7 +1,6 @@
 <c:set var="availableCount" value="${userModel.cart.cartLines}" />
-<div class="container">
 
-
+<div style="margin:20px;">
 	<c:if test="${not empty message}">
 		
 		<div class="alert alert-info">
@@ -15,11 +14,11 @@
 			<table id="cart" class="table table-hover table-condensed">
 			   	<thead>
 					<tr>
-						<th style="width:50%">Product</th>
+						<th style="width:62%">Product</th>
 						<th style="width:10%">Price</th>
 						<th style="width:8%">Quantity</th>
-						<th style="width:22%" class="text-center">Subtotal</th>
-						<th style="width:10%"></th>
+						<th style="width:15%" class="text-center">Subtotal</th>
+						<th style="width:5%"></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -31,9 +30,9 @@
 					<tr>
 						<td data-th="Product">
 							<div class="row">
-								<div class="col-sm-2 hidden-xs">
-									<img src="${images}/${cartLine.product.code}.jpg" alt="${cartLine.product.name}" class="img-responsive dataTableImg"/></div>
-								<div class="col-sm-10">
+								<div class="col-sm-3 hidden-xs">
+									<img src="${images}/${cartLine.product.code}.jpg" alt="${cartLine.product.name}" class="img-responsive" style="width:200px;height:200px"/></div>
+								<div class="col-sm-9">
 									<h4 class="nomargin">${cartLine.product.name} 
 										<c:if test="${cartLine.available == false}">
 											<strong style="color:red">(Not Available)</strong> 
@@ -91,8 +90,4 @@
 		
 		</c:otherwise>
 	</c:choose>
-
-
-
-
 </div>

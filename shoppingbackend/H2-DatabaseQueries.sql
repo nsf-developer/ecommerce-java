@@ -25,7 +25,7 @@ CREATE TABLE user_detail (
 CREATE TABLE product (
 	id IDENTITY,
 	code VARCHAR(20),
-	name VARCHAR(50),
+	name VARCHAR(255),
 	brand VARCHAR(50),
 	description VARCHAR(255),
 	unit_price DECIMAL(10,2),

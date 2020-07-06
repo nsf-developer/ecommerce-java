@@ -16,7 +16,7 @@
 						<h2
 							class="text-padding-small background-primary text-white s-12 margin-top-bottom-20">Personal
 							Details</h2>
-
+					<div  style="height:250px;">
 						<h3>
 							Name : <strong>${registerModel.user.firstName}
 								${registerModel.user.lastName}</strong>
@@ -30,6 +30,7 @@
 						<h4>
 							Role : <strong>${registerModel.user.role}</strong>
 						</h4>
+					</div>	
 
 					</div>
 
@@ -48,19 +49,21 @@
 							class="text-padding-small background-primary text-white s-12 margin-top-bottom-20">Billing
 							Address</h2>
 
+					<div  style="height:250px;">
 						<p>${registerModel.billing.addressLineOne},</p>
 						<p>${registerModel.billing.addressLineTwo},</p>
 						<p>${registerModel.billing.city}-
 							${registerModel.billing.postalCode},</p>
 						<p>${registerModel.billing.state}</p>
 						<p>${registerModel.billing.country}</p>
+					</div>	
 
 					</div>
 
 					<p class="s-3 center">
 						<a href="${flowExecutionUrl}&_eventId_billing"
 							style="width: 100%;"
-							class="button border-radius text-white background-primary margin-top-10">Edit</a>
+							class="button border-radius text-white background-primary">Edit</a>
 					</p>
 
 				</div>
@@ -71,9 +74,13 @@
 				<div class="col-sm-4 col-sm-offset-4">
 
 					<div class="text-center">
-
+						
+						<p style="margin-top:20px; align:center;" class="background-primary">Make sure your details are Correct !</p>
+						
 						<a href="${flowExecutionUrl}&_eventId_submit" style="width: 100%; background-color: #dd442c;"
-							class="button border-radius text-white margin-top-20">Confirm</a>
+							class="button border-radius text-white margin-top-10">Confirm</a>
+							
+						
 
 					</div>
 

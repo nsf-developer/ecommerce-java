@@ -227,6 +227,9 @@
 		<script src="${js}/dataTables.bootstrap.js"></script>
 
 		<script src="${js}/swiper.min.js"></script>
+		
+		<!-- Self coded javascript -->
+		<script src="${js}/myapp.js"></script>
 
 		<!-- Initialize Swiper -->
 		<script>

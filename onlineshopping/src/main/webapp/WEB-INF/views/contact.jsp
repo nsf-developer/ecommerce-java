@@ -50,10 +50,10 @@
 									class="icon-sli-location-pin text-primary text-size-40 text-line-height-1"></i>
 							</div>
 							<div class="margin-left-60">
-								<h2 class="text-size-20 margin-bottom-10 text-strong">Company
+								<h2 class="text-size-20 margin-bottom-10 text-strong">Home
 									Address</h2>
-								<p>Aviation Way 99</p>
-								<p>Los Angeles, USA</p>
+								<p>237 Jayawardana MW</p>
+								<p>Thihariya, Kalagedihena</p>
 							</div>
 						</div>
 
@@ -66,11 +66,11 @@
 								<h2 class="text-size-20 margin-bottom-10 text-strong">E-mail</h2>
 								<p>
 									<a class="text-primary-hover"
-										href="mailto:contact@sampledomain.com">contact@sampledomain.com</a>
+										href="mailto:contact@sampledomain.com">naseef1657899@gmail.com</a>
 								</p>
 								<p>
 									<a class="text-primary-hover"
-										href="mailto:office@sampledomain.com">office@sampledomain.com</a>
+										href="mailto:office@sampledomain.com">naseef165789@gmail.com</a>
 								</p>
 							</div>
 						</div>
@@ -83,9 +83,9 @@
 							<div class="margin-left-60">
 								<h2 class="text-size-20 margin-bottom-10 text-strong">Phone
 									Numbers</h2>
-								<p>0800 4521 800 50</p>
-								<p>0450 5896 625 16</p>
-								<p>0798 6546 465</p>
+								<p>+94 77 777 7777</p>
+								<p>+94 77 888 8888</p>
+								<p>+94 77 999 9999</p>
 							</div>
 						</div>
 

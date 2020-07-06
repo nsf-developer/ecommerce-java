@@ -3,20 +3,13 @@
 	<!-- Breadcrumb -->
 	<div class="row">
 		
-		<div class="col-xs-12">
-		
-			
+		<div class="col-xs-12">	
 			<ol class="breadcrumb">
-			
 				<li><a href="${contextRoot}/home">Home</a></li>
 				<li><a href="${contextRoot}/show/all/products">Products</a></li>
 				<li class="active">${product.name}</li>
-			
 			</ol>
-		
-		
 		</div>
-	
 	
 	</div>
 	
@@ -24,45 +17,38 @@
 	<div class="row">
 	
 		<!-- Display the product image -->
-		<div class="col-xs-12 col-sm-4">
+		<div class="col-xs-12 col-sm-6">
 		
-			<div class="thumbnail">
+			<div>
 							
-				<img src="${images}/${product.code}.jpg" class="img img-responsive"/>
+				<img src="${images}/${product.code}.jpg" class="img img-responsive" style="width:450px; height:450px; float:right;"/>
 						
 			</div>
 		
 		</div>
 	
-		
+		 
 		<!-- Display the product description -->	
-		<div class="col-xs-12 col-sm-8">
+		<div class="col-xs-12 col-sm-6">
 		
-			<h3>${product.name}</h3>
-			<hr/>
+			<div class="col-xs-10">
+		
+			<h3 style="font-size: 30px; margin-bottom: 0px;font-family:Candara; margin-bottom:30px;">${product.name}</h3>
 			
-			<p>${product.description}</p>
-			<hr/>
+			<p style="margin-bottom:30px;">${product.description}</p>
 			
-			<h4>Price: <strong> &#8377; ${product.unitPrice} /-</strong></h4>
-			<hr/>
+			<div class="col-sm-6" style="padding-left:0px;" style="margin-bottom:10px;"> 
+				<p>${product.brand}</p>
+			</div>
+			
+			<div class="col-sm-6" style="margin-bottom:10px;" >
+				<h4 style="float:right; font-family:Bahnschrift SemiBold;">LKR ${product.unitPrice}0/-</h4>
+			</div>
 			
 			
 			
-			<c:choose>
-				
-				<c:when test="${product.quantity < 1}">
-				
-					<h6>Qty. Available: <span style="color:red">Out of Stock!</span></h6>
-					
-				</c:when>
-				<c:otherwise>				
-					
-					<h6>Qty. Available: ${product.quantity}</h6>
-						
-				</c:otherwise>
 			
-			</c:choose>
+			
 			
 			
 			<security:authorize access="isAnonymous() or hasAuthority('USER')">	
@@ -98,7 +84,23 @@
 
 			<a href="${contextRoot}/show/all/products" class="btn btn-warning">
 				Continue Shopping</a>
+				
+				<c:choose>
+				
+				<c:when test="${product.quantity < 1}">
+				
+					<h6>Qty. Available: <span style="color:red">Out of Stock!</span></h6>
 					
+				</c:when>
+				<c:otherwise>				
+					
+					<h6>Qty. Available: ${product.quantity}</h6>
+						
+				</c:otherwise>
+			
+			</c:choose>
+				
+			</div>		
 		</div>
 
 	

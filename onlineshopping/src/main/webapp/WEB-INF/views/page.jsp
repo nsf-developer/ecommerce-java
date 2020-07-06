@@ -106,9 +106,14 @@
 
 		</div>
 
+		<footer>
+			<div
+				style="text-align: center; background-color: #e6e6e6; padding-top: 10px; padding-bottom: 0px; position: fixed; bottom: 0; width: 100%;">
+				<p>Copyright 2020 Mhd Naseef</p>
+			</div>
 
-		<!-- Footer comes here  -->
-		<%@include file="./shared/footer.jsp"%>
+		</footer>
+
 
 		<!-- jQuery -->
 		<script src="${js}/jquery.js"></script>
@@ -133,7 +138,7 @@
 
 		<%-- <script src="${js}/catelogSlider.js"></script> --%>
 		<script src="${js}/swiper.min.js"></script>
-		
+
 
 		<!-- Initialize Swiper -->
 		<script>

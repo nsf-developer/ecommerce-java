@@ -139,9 +139,9 @@
 		    							<c:forEach items="${orderDetail.orderItems}" var="orderItem">
 			    							<tr>
 			    								<td>${orderItem.product.name}</td>
-			    								<td class="text-center">&#8377; ${orderItem.buyingPrice}</td>
+			    								<td class="text-center">LKR ${orderItem.buyingPrice}</td>
 			    								<td class="text-center">${orderItem.productCount}</td>
-			    								<td class="text-right">&#8377; ${orderItem.total}</td>
+			    								<td class="text-right">LKR ${orderItem.total}</td>
 			    							</tr>
 		    							</c:forEach>
 		    						</tbody>
@@ -155,4 +155,64 @@
 		    	<a href="${contextRoot}/show/all/products" class="btn btn-lg btn-warning">Continue Shopping</a>
 		    </div>
 		</div>
-<%@include file="../../flows-shared/footer.jsp" %>	
+
+<footer>
+			<div
+				style="text-align: center; background-color: #e6e6e6; padding-top: 10px; padding-bottom: 0px; position: fixed; bottom: 0; width: 100%;">
+				<p>Copyright 2020 Mhd Naseef</p>
+			</div>
+
+		</footer>
+
+
+		<!-- jQuery -->
+		<script src="${js}/jquery.js"></script>
+
+		<script src="${js}/jquery.validate.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="${js}/bootstrap.min.js"></script>
+
+		<!-- DataTable Plugin -->
+		<script src="${js}/jquery.dataTables.js"></script>
+
+		<!-- DataTable Bootstrap Script -->
+		<script src="${js}/dataTables.bootstrap.js"></script>
+
+		<!-- DataTable Bootstrap Script -->
+		<script src="${js}/bootbox.min.js"></script>
+
+		<!-- Self coded javascript -->
+		<script src="${js}/myapp.js"></script>
+
+
+		<%-- <script src="${js}/catelogSlider.js"></script> --%>
+		<script src="${js}/swiper.min.js"></script>
+
+
+		<!-- Initialize Swiper -->
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				effect : 'coverflow',
+				grabCursor : true,
+				centeredSlides : true,
+				slidesPerView : 'auto',
+				coverflowEffect : {
+					rotate : 30,
+					stretch : 0,
+					depth : 200,
+					modifier : 1,
+					slideShadows : true,
+				},
+				pagination : {
+					el : '.swiper-pagination',
+				},
+			});
+		</script>
+
+
+	</div>
+
+</body>
+
+</html>

@@ -17,9 +17,13 @@
 						class="break background-primary break-big break-center margin-bottom-20r">
 				</div>
 
-				<h3 class="text-size-30 margin-bottom-40 text-center">
-					<b>Sign Up - Address</b>
+				<h3 class="text-size-30 text-center margin-bottom-0">
+					<b>SIGN UP</b>
 				</h3>
+				<h4 class="text-size-12 margin-bottom-40 text-center"
+					style="color: #dd442c;">
+					<b>Address</b>
+				</h4>
 
 				<sf:form method="POST" modelAttribute="billing"
 					class="customform text-white" id="billingForm"
@@ -96,7 +100,7 @@
 						</div>
 
 						<div class="s-12">
-							<p class="text-center margin-bottom-10">Your Address Details</p>
+							<p class="text-center margin-top-20">Your Billing Address Details</p>
 						</div>
 
 
